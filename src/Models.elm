@@ -1,5 +1,13 @@
 module Models exposing (..)
 
 
+type Route
+    = HomeRoute
+    | OtherRoute
+    | NotFoundRoute
+
+
 type alias Model =
-    String
+    { greeting : String
+    , route : Route
+    }
