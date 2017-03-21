@@ -1,0 +1,5 @@
+# Node artifacts
+/node_modules
+
+# Elm artifacts
+/elm-stuff
